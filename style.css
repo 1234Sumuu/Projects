@@ -1,0 +1,499 @@
+.signup {
+    margin-right: 4px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border: 1px solid #052825;
+}
+
+.signin {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border: 1px solid #052825;
+    background: #052825;
+    color: rgb(252, 252, 252);
+}
+
+.get {
+    /* position: relative; */
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #052825;
+    color: rgb(255, 255, 255)
+}
+
+.container {
+    padding: 20px;
+    height: 100%;
+    /* margin-top: 300px; */
+    margin-bottom: 300px;
+}
+
+.h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.p1 {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+.size-box {
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px 100px 100px;
+    /* top: 300px; */
+}
+
+
+/* .column1 {
+    flex: 25%;
+    max-width: 25%;
+} */
+
+.speech {
+    top: 300px;
+}
+
+
+/* .grid {
+    margin: 0
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px 100px 100px;
+}
+
+.column1 {
+    flex: 25%;
+    max-width: 25%;
+} */
+
+.box1 {
+    position: absolute;
+    left: 0%;
+    right: 87.57%;
+    top: 43.01%;
+    bottom: 43.01%;
+    background: #EAEEF3;
+}
+
+.box2 {
+    position: absolute;
+    left: 0%;
+    right: 87.57%;
+    top: 59.43%;
+    bottom: 15.77%;
+    background: #EAEEF3;
+}
+
+.box3 {
+    position: absolute;
+    left: 14.51%;
+    right: 69.38%;
+    top: 47.03%;
+    bottom: 28.17%;
+    background: #EAEEF3;
+}
+
+.box4 {
+    position: absolute;
+    left: 14.51%;
+    right: 69.38%;
+    top: 74.31%;
+    bottom: 11.71%;
+    background: #EAEEF3;
+}
+
+.box5 {
+    position: absolute;
+    left: 32.71%;
+    right: 51.18%;
+    top: 40.33%;
+    bottom: 45.69%;
+    background: #EAEEF3;
+}
+
+.box6 {
+    position: absolute;
+    left: 32.71%;
+    right: 51.18%;
+    top: 56.79%;
+    bottom: 18.41%;
+    background: #EAEEF3;
+}
+
+.box7 {
+    position: absolute;
+    left: 50.9%;
+    right: 32.99%;
+    top: 42.28%;
+    bottom: 35.45%;
+    background: #EAEEF3;
+}
+
+.box8 {
+    position: absolute;
+    left: 50.9%;
+    right: 32.99%;
+    top: 67.03%;
+    bottom: 8.17%;
+    background: #EAEEF3;
+}
+
+.box9 {
+    position: absolute;
+    left: 69.1%;
+    right: 14.79%;
+    top: 45.45%;
+    bottom: 40.57%;
+    background: #EAEEF3;
+}
+
+.box10 {
+    position: absolute;
+    left: 69.1%;
+    right: 14.79%;
+    top: 61.87%;
+    bottom: 15.85%;
+    background: #EAEEF3;
+}
+
+.box11 {
+    position: absolute;
+    left: 87.29%;
+    right: 0%;
+    top: 47.03%;
+    bottom: 28.17%;
+    background: #EAEEF3;
+}
+
+.box12 {
+    position: absolute;
+    left: 87.29%;
+    right: 0%;
+    top: 74.31%;
+    bottom: 11.71%;
+    background: #EAEEF3;
+}
+
+.blockquote:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 0;
+    content: "\f10d";
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #bf0024;
+    height: 3px;
+    width: 200px;
+}
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic); */
+
+.otro-blockquote {
+    Font: Poppins;
+    Weight: 400, Regular;
+    font-size: 1.4em;
+    width: 60%;
+    margin: 50px auto;
+    font-family: Open Sans;
+    font-style: Regular;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    /* border-left: 8px solid #494A4D; */
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
+}
+
+.otro-blockquote::before {
+    font-family: Inter;
+    content: "\201C";
+    color: #494A4D;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+.otro-blockquote::after {
+    content: '';
+}
+
+.otro-blockquote span {
+    display: block;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.body-section {
+    position: relative;
+    width: 1440px;
+    height: 608px;
+    left: 0px;
+    /* top: 300px; */
+    text-align: center;
+}
+
+.left-side {
+    text-align: center;
+    position: absolute;
+    width: 457px;
+    height: 376px;
+    left: 150px;
+    /* top: 400px; */
+    background-color: #a9aaac;
+}
+
+.right-side {
+    position: absolute;
+    text-align: center;
+    width: 603px;
+    height: 448px;
+    left: 687px;
+    /* top: 400px; */
+    background: #EAEEF3;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: Poppins;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    font-style: Inter;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.inner-button {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #052825;
+    color: rgb(255, 255, 255)
+}
+
+.half-box1 {
+    height: 265px;
+    width: 317px;
+    left: 30px;
+    top: 182.5px;
+    border-radius: 0px;
+    background: #EAEEF3;
+}
+
+.half-box2 {
+    height: 172px;
+    width: 232px;
+    left: 113px;
+    top: 477.5px;
+    border-radius: 0px;
+    background: #EAEEF3;
+}
+
+.half-box3 {
+    height: 172px;
+    width: 232px;
+    left: 375px;
+    top: 100px;
+    border-radius: 0px;
+    background: #EAEEF3;
+}
+
+.half-box4 {
+    height: 172px;
+    width: 232px;
+    left: 375px;
+    top: 100px;
+    border-radius: 0px;
+    background: #EAEEF3;
+}
+
+.titlepage {
+    height: 128px;
+    width: 554px;
+    left: 235px;
+    top: 80px;
+    border-radius: nullpx;
+}
+
+#sm-banner .section-p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #d7d9db;
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ask question section */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+
+/* body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+} */
+
+.container3 {
+    position: relative;
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.accordion {
+    position: relative;
+    width: 350px;
+    margin-left: 40px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content-accordion {
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+.question-answer {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-img {
+    position: relative;
+    width: 320px;
+}
+
+.title-question {
+    margin: 1.4rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.up-icon {
+    display: none;
+}
+
+.answer {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    display: none;
+}
+
+.show-text .answer {
+    display: block;
+}
+
+.show-text .up-icon {
+    display: inline;
+}
+
+.show-text .down-icon {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .accordion {
+        width: 920px;
+        height: 0;
+        display: flex;
+    }
+    .accordion-img {
+        position: relative;
+        width: 420px;
+        top: 88px;
+    }
+    .question-answer {
+        width: 380px;
+    }
+    .content-accordion {
+        margin-top: 85px;
+    }
+    .title {
+        margin-top: 50px;
+        font-size: 3rem;
+    }
+}
+
+
+/* .container-section {
+    padding: 1px 1px 1px 1px;
+    top: 300px;
+} */
